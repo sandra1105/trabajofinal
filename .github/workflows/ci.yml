@@ -19,6 +19,4 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m unittest test_añadir.py
-          python -m unittest test_sacarinfo.py
-          python -m unittest test_eliminar.py
+          python -m unittest test.py
